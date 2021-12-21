@@ -1,6 +1,12 @@
 .container {
   padding: 0 2rem;
 }
+.catpic{
+  width: 50%;
+  margin-top: 33px;
+  border-radius: 6px;
+  box-shadow: 10px 10px 30px lightblue;
+}
 
 .main {
   min-height: 100vh;
