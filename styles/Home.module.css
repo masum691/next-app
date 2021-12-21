@@ -17,14 +17,19 @@
   align-items: center;
 }
 .btn{
-  border: 0;
-  background-color: rgb(108, 54, 233);
+  border: 5px solid;
+  border-image: linear-gradient(210deg, #FF0FCC, rgb(15, 199, 255), #910AF2) 1;
   padding: 10px 44px;
   font-size: 16px;
-  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0);
   font-weight: 700;
-  color: rgb(240, 213, 255);
   cursor: pointer;
+  margin-bottom: 22px;
+  color: rgb(94, 0, 218);
+}
+.btn:hover{
+  border: 5px solid;
+  border-image: linear-gradient(20deg, rgb(15, 199, 255),#FF0FCC) 1;
 }
 .footer {
   display: flex;
