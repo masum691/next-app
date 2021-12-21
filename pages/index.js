@@ -13,7 +13,7 @@ export default function Home() {
       <input type="text" />
       <br />
       <button className={styles.btn}>Submit</button>
-      <img className={styles.catpic} src="cat.jpg" alt="" />
+      <Image className={styles.catpic} src="/cat.jpg" width={644} height={343} alt="" />
     </div>
   )
 }
