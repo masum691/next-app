@@ -6,6 +6,10 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
+    <>
+    <Head>
+      <title>Next.js || home</title>
+    </Head>
     <div className={styles.main}>
       <h1>Hellow Next.js!!</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequatur, voluptatibus quibusdam itaque error sunt sed nobis incidunt facere, corrupti, minima molestias?</p>
@@ -15,5 +19,6 @@ export default function Home() {
       <button className={styles.btn}>Submit</button>
       <Image className={styles.catpic} src="/cat.jpg" width={644} height={343} alt="" />
     </div>
+    </>
   )
 }
