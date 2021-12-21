@@ -1,9 +1,11 @@
 const Footer = () => {
-    return ( 
+    return (
         <div>
-            copy&; Copyright 2021 Next.js
+            <footer>
+                &copy; Copyright 2021 Next.js
+            </footer>
         </div>
-     );
+    );
 }
- 
+
 export default Footer;

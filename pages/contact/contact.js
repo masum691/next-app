@@ -2,8 +2,7 @@ import Navbar from "../../components/Navbar";
 
 const Contact = () => {
     return (
-        <div>
-            <Navbar></Navbar>
+        <div className="container">
             <h1>This is contact page</h1>
         </div>
     );

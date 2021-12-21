@@ -2,8 +2,7 @@ import Navbar from "../components/Navbar";
 
 const About = () => {
     return (
-        <div>
-            <Navbar></Navbar>
+        <div className="container">
             <h1>Hello Masum</h1>
         </div>
     );
